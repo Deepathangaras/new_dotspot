@@ -1,0 +1,83 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e8e8e8;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-brand-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.menu-desktop {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Spacing between the menu items */
+}
+
+.menu-desktop button {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.menu-desktop button:hover {
+  color: #1890ff; /* Ant Design default primary color */
+}
+
+.menu-mobile {
+  display: none;
+}
+
+.menu-mobile button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Drawer Style */
+.ant-drawer-content {
+  background-color: #f8f9fa;
+}
+
+.ant-drawer-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .menu-desktop {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: block;
+  }
+
+  .navbar-container {
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+}

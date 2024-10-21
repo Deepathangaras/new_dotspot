@@ -1,0 +1,62 @@
+.section-one {
+    height: calc(100vh - 85px);
+    background-color: #9fbdc0;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    align-items: center;
+    max-width: 1300px;
+  }
+  
+  .gold {
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+  }
+  
+  .title {
+    line-height: 1.2;
+  }
+  
+  .title h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+    color: #000000;
+    align-items: center;
+    max-width: 1300px;
+  }
+  
+  .p {
+    padding: 2rem 0;
+    color: #000000;
+  }
+  
+  button {
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, #2B32B2, #1488CC);
+    color: #fff;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #121772, #075886);
+  }
+  
+  .glow {
+    filter: drop-shadow(-20px 0px 1.75em rgb(81,147,194));
+  }
+  
+  .right-side {
+    justify-self: flex-end;
+  }
+  

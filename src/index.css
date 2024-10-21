@@ -1,0 +1,83 @@
+/* Import the Noto Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;800&display=swap');
+
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply Noto Sans globally */
+body {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400; /* Set the default font weight */
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  color: #333;
+  overflow-x: hidden;
+}
+
+/* Styling for headers */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800; /* Use the boldest font weight for headers */
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+/* Styling for paragraphs */
+p {
+  font-weight: 400; /* Use normal font weight for paragraphs */
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* Links */
+a {
+  color: #1488CC;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #121772;
+  text-decoration: underline;
+}
+
+/* Buttons */
+button {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 600;
+  background: linear-gradient(to right, #2B32B2, #1488CC);
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #121772, #075886);
+}
+
+/* General container styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
